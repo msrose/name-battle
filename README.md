@@ -1,5 +1,7 @@
 # name-battle
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/msrose/name-battle.svg)](https://greenkeeper.io/)
+
 :name_badge: Simulate battles in a parallel universe
 
 The original concept for the sacred Name Battle was proposed by @vikram-ravindran during a magnificent state of pure lucidity during which he was capable of anything he so desired. He desired to unveil the Name Battle to the world, and so it was:
