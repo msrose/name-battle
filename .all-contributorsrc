@@ -1,0 +1,25 @@
+{
+  "projectName": "name-battle",
+  "projectOwner": "msrose",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "msrose",
+      "name": "Michael Rose",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3495264?v=4",
+      "profile": "http://msrose.github.io",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
