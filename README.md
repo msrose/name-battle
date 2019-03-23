@@ -1,5 +1,9 @@
 # name-battle
 
+[![npm](https://img.shields.io/npm/v/name-battle.svg)](https://www.npmjs.com/package/name-battle)
+[![npm](https://img.shields.io/npm/dm/name-battle.svg)](https://npm-stat.com/charts.html?package=name-battle)
+[![Build Status](https://travis-ci.org/msrose/name-battle.svg?branch=master)](https://travis-ci.org/msrose/name-battle)
+[![codecov](https://codecov.io/gh/msrose/name-battle/branch/master/graph/badge.svg)](https://codecov.io/gh/msrose/name-battle)
 [![Greenkeeper badge](https://badges.greenkeeper.io/msrose/name-battle.svg)](https://greenkeeper.io/)
 
 :name_badge: Simulate battles in a parallel universe
