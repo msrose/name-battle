@@ -1,9 +1,11 @@
 function normalizeName(name) {
-    return name.toLowerCase().replace(/[^a-z]/g, '')
+    return name.toLowerCase()
 }
 
 function nameBattle({ attacker, target }) {
-    const targetLetterCounts = normalizeName(target)
+    const normalizedTarget = normalizeName(target)
+
+    const targetLetterCounts = normalizedTarget
         .split('')
         .reduce(
             (counts, letter) =>
@@ -23,7 +25,7 @@ function nameBattle({ attacker, target }) {
         (total, count) => total + count,
     )
 
-    const lifeForce = (remainingLetterTotal / target.length) * 100
+    const lifeForce = (remainingLetterTotal / normalizedTarget.length) * 100
 
     return lifeForce
 }

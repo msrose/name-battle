@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@tophat'
+  extends: ['@tophat', '@tophat/eslint-config/jest']
 }
