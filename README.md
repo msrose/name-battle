@@ -13,6 +13,40 @@ The original concept for the sacred Name Battle was proposed by [@vikram-ravindr
 
 > The purpose of this function is to simulate a battle in a parallel universe in which, when a person attacks another person (the target), they do so by absorbing letters in the target's name that match the attacker's name, and the percentage of letters left over gives the current life-force level of the target as a percentage (100% is full-health)
 
+## Installation
+
+```
+npm install name-battle
+```
+
+## Usage
+
+```javascript
+const nameBattle = require('name-battle')
+
+nameBattle({ attacker: 'Vikram Ravindran', target: 'Michael Rose' })
+```
+
+## API
+
+### Default Export
+
+```
+nameBattle(combatants)
+```
+
+Conducts a name battle between the specified combatants
+
+#### Arguments
+
+1. `combatants` _(Object)_: An object describing the participants in the Name Battle
+  - `combatants.attacker` _(String)_: The name of the attacker
+  - `combatants.target` _(String)_: The name of the target
+
+#### Returns
+
+_(Number)_: The remaining Life Force of the target after they have been engaged in a Name Battle by the attacker
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
