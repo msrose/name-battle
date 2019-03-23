@@ -1,9 +1,11 @@
 {
   "name": "name-battle",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": ":name_badge: Simulate battles in a parallel universe",
   "main": "src/index.js",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "test": "jest",
     "lint": "eslint ."
