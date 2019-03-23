@@ -1,6 +1,6 @@
 {
   "name": "name-battle",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": ":name_badge: Simulate battles in a parallel universe",
   "main": "src/index.js",
   "files": [
