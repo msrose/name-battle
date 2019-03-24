@@ -1,33 +1,14 @@
-function normalizeName(name) {
-    return name.toLowerCase()
-}
+const Combatant = require('./Combatant')
 
-function nameBattle({ attacker, target }) {
-    const normalizedTarget = normalizeName(target)
+function nameBattle({ attacker: attackerName, target: targetName }) {
+    const attacker = new Combatant(attackerName)
+    const target = new Combatant(targetName)
 
-    const targetLetterCounts = normalizedTarget
-        .split('')
-        .reduce(
-            (counts, letter) =>
-                Object.assign(counts, { [letter]: (counts[letter] || 0) + 1 }),
-            {},
-        )
+    target.invigorate()
 
-    normalizeName(attacker)
-        .split('')
-        .forEach(letter => {
-            if (targetLetterCounts[letter]) {
-                targetLetterCounts[letter]--
-            }
-        })
+    attacker.drainLifeForceFrom(target)
 
-    const remainingLetterTotal = Object.values(targetLetterCounts).reduce(
-        (total, count) => total + count,
-    )
-
-    const lifeForce = (remainingLetterTotal / normalizedTarget.length) * 100
-
-    return lifeForce
+    return target.getLifeForceLevel()
 }
 
 module.exports = nameBattle
