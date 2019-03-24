@@ -6,7 +6,7 @@ function nameBattle({ attacker: attackerName, target: targetName }) {
 
     target.invigorate()
 
-    attacker.absorbLifeForceFrom(target)
+    attacker.drainLifeForceFrom(target)
 
     return target.getLifeForceLevel()
 }

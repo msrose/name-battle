@@ -37,7 +37,7 @@ class Combatant {
         }
     }
 
-    absorbLifeForceFrom(target) {
+    drainLifeForceFrom(target) {
         this.getName()
             .split('')
             .forEach(letter => target.exude(letter))
