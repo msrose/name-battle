@@ -40,8 +40,8 @@ Conducts a name battle between the specified combatants
 #### Arguments
 
 1. `combatants` _(Object)_: An object describing the participants in the Name Battle
-  - `combatants.attacker` _(String)_: The name of the attacker
-  - `combatants.target` _(String)_: The name of the target
+    - `combatants.attacker` _(String)_: The name of the attacker
+    - `combatants.target` _(String)_: The name of the target
 
 #### Returns
 
