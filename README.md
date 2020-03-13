@@ -4,6 +4,7 @@
 [![npm](https://img.shields.io/npm/dm/name-battle.svg)](https://npm-stat.com/charts.html?package=name-battle)
 [![Build Status](https://travis-ci.org/msrose/name-battle.svg?branch=master)](https://travis-ci.org/msrose/name-battle)
 [![codecov](https://codecov.io/gh/msrose/name-battle/branch/master/graph/badge.svg)](https://codecov.io/gh/msrose/name-battle)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=msrose/name-battle)](https://dependabot.com)
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 :name_badge: Simulate battles in a parallel universe
